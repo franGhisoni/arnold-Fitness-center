@@ -1,7 +1,10 @@
 package model;
 import java.util.ArrayList;
+import model.DTO.SocioDTO;
+import controller.SocioController.java;
 
 public class Socio {
+	private int idSocio;
 	private String nombre;
 	private String apellido;
 	private int edad;
@@ -12,7 +15,15 @@ public class Socio {
 	private Objetivo objetivo;
 	private ArrayList<Medicion> medicion;
 	private ArrayList<Trofeo> trofeos;
-	
+
+	public SocioDTO getSocio(){}
+
+
+
+	public void actualizarDatos(SocioDTO miSocio){
+		SocioDao miSocioDao;
+		if (miSocio.)
+	}
 	private void Socio() {
 		
 	}
