@@ -55,7 +55,7 @@ public class SocioVO {
                 this.nombre = nombre;
                 this.apellido = apellido;
                 this.altura = altura;
-                this.rutina = rutina;
+                this.rutina = new ArrayList<Rutina>();
                 this.sexo = sexo;
                 this.objetivo = objetivo;
                 this.medicion = medicion;

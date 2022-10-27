@@ -18,4 +18,4 @@ public class Entrenamiento {
 		return true;
 	}
 }
-//la cague con el git xd
+
